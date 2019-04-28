@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.1)
 project(apriltag)
 
+set(CMAKE_BUILD_TYPE Release)
+
 find_package(Threads REQUIRED)
 find_package(OpenCV QUIET)
 
